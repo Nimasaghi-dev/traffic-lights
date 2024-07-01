@@ -18,7 +18,7 @@ while (cycle < 2) {
     } else if (currentState === "red") {
         trafficLight2.stateIndex = 0; 
         cycle++;
-    }
-}
+    };
+};
 
 
