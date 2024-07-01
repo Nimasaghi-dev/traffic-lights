@@ -10,14 +10,14 @@ while (cycle < 2) {
     const currentState = trafficLight2.possibleStates[trafficLight2.stateIndex];
     console.log("The traffic light is on", currentState);
 
-  // Update the stateIndex based on the current state
+
     if (currentState === "green") {
-    trafficLight2.stateIndex = 1; // Turn it orange
+    trafficLight2.stateIndex = 1;
     } else if (currentState === "orange") {
-    trafficLight2.stateIndex = 2; // Turn it red
+    trafficLight2.stateIndex = 2; 
     } else if (currentState === "red") {
-    trafficLight2.stateIndex = 0; // Turn it green
-    cycle++; // Increment cycle count
+    trafficLight2.stateIndex = 0; 
+    cycle++;
     }
 }
 
