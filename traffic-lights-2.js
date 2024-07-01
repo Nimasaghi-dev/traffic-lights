@@ -12,11 +12,11 @@ while (cycle < 2) {
 
 
     if (currentState === "green") {
-    trafficLight2.stateIndex = 1;
+        trafficLight2.stateIndex = 1;
     } else if (currentState === "orange") {
-    trafficLight2.stateIndex = 2; 
+        trafficLight2.stateIndex = 2; 
     } else if (currentState === "red") {
-    trafficLight2.stateIndex = 0; 
+        trafficLight2.stateIndex = 0; 
     cycle++;
     }
 }
